@@ -1,136 +1,89 @@
 body {
-    background-color: black;
-    margin: 0;
-    padding: 0;
+  background-color: black;
 }
 
 .navbar {
-    position: fixed;
-    width: 100%;
-    z-index: 1;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
 }
 
 .carousel img {
-    height: 900px;
-    object-fit: cover;
-    width: 100%;
+  width: 100%;
+  height: 60vh;
+  object-fit: cover;
 }
 
-
-@media (max-width: 768px) {
-    .carousel img {
-        height: 400px;
-    }
+@media (min-width: 768px) {
+  .carousel img {
+    height: 80vh;
+  }
 }
 
 .heading {
-    color: white;
-    text-align: center;
-    margin-top: 100px;
-    margin-bottom: 50px;
+  color: white;
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 40px;
 }
 
 .card1 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-    padding: 0 15px;
-}
-
-.card2 {
-    flex: 1 1 300px;
-    display: flex;
-    justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 15px;
 }
 
 .card {
-    background-color: #FFFAEC;
-    transition: 0.3s;
-    width: 100%;
-    max-width: 300px;
+  background-color: #FFFAEC;
+  transition: 0.3s;
+  border-radius: 15px;
+  width: 100%;
+  max-width: 300px;
 }
 
 .card:hover {
-    box-shadow: 3px 3px 15px rgb(221, 214, 214);
+  box-shadow: 3px 3px 15px rgb(221, 214, 214);
 }
 
 .card img {
-    height: 220px;
-    width: 100%;
-    object-fit: cover;
+  height: 220px;
+  width: 100%;
+  border-radius: 15px 15px 0 0;
+  object-fit: cover;
 }
 
 .row {
-    margin-top: 130px;
-    color: white;
-}
-
-.row img {
-    max-width: 100%;
-    height: auto;
-    margin-left: 0;
-    border-radius: 20px;
-    box-shadow: 5px 4px 10px rgb(94, 84, 84);
+  margin-top: 80px;
+  color: white;
+  gap: 30px;
 }
 
 .footer {
-    width: 100%;
-    background-color: #FFFAEC;
-    margin-top: 70px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 40px 20px;
+  width: 100%;
+  background-color: #FFFAEC;
+  padding: 40px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
 }
 
 .footer-data {
-    flex: 1 1 200px;
-    font-size: 14px;
-    margin-top: 20px;
+  flex: 1 1 200px;
+  font-size: 14px;
 }
 
 .footer a {
-    text-decoration: none;
-    display: inline-block;
-    margin-top: 5px;
+  text-decoration: none;
+  color: black;
 }
 
-footer h6 {
-    width: 100%;
-    text-align: center;
-    margin-top: 20px;
-    font-size: 14px;
-    color: #333;
-}
-
-.cardbody {
-    background-color: #EEEEEE;
-}
-
-/* Responsive adjustments */
-@media (max-width: 768px) {
-    .heading {
-        margin-top: 80px;
-    }
-
-    .footer {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .footer-data {
-        padding-left: 0;
-        text-align: center;
-    }
-
-    iframe {
-        width: 100% !important;
-        height: 300px !important;
-    }
-
-    .carousel-caption h5,
-    .carousel-caption p {
-        font-size: 14px;
-    }
+.footer h6 {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 30px;
 }
