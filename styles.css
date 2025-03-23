@@ -1,92 +1,4 @@
 body {
-<<<<<<< HEAD
-  background-color: black;
-  margin: 0;
-  padding: 0;
-  font-family: 'Segoe UI', sans-serif;
-  scroll-behavior: smooth;
-}
-
-.navbar {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 1000;
-  background: rgba(0, 0, 0, 0.8);
-  backdrop-filter: blur(10px);
-}
-
-.navbar-brand {
-  font-weight: bold;
-  font-size: 1.5rem;
-}
-
-.carousel img {
-  width: 100%;
-  height: 90vh;
-  object-fit: cover;
-}
-
-.carousel-caption {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  text-align: center;
-  color: white;
-  background-color: rgba(0, 0, 0, 0.5);
-  padding: 20px;
-  border-radius: 10px;
-}
-
-.heading {
-  color: #FFD700;
-  text-align: center;
-  margin-top: 100px;
-  margin-bottom: 40px;
-  font-size: 2.5rem;
-}
-
-.card1 {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 30px;
-  margin: 0 auto;
-  max-width: 1200px;
-  padding: 0 15px;
-}
-
-.card {
-  background-color: #1e1e1e;
-  border: none;
-  border-radius: 15px;
-  color: white;
-  width: 100%;
-  max-width: 320px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 4px 15px rgba(255, 255, 255, 0.2);
-}
-
-.card img {
-  height: 220px;
-  width: 100%;
-  border-radius: 15px 15px 0 0;
-  object-fit: cover;
-}
-
-.card-title {
-  color: #FFD700;
-}
-
-.card-text {
-  font-size: 0.95rem;
-}
-
-=======
     background-color: black;
 }
 
@@ -174,62 +86,11 @@ body {
     object-fit: cover;
 }
 
->>>>>>> 24808ae (Initial commit)
 .row {
-  margin-top: 80px;
-  color: white;
+    margin-top: 130px;
+    color: white;
 }
 
-<<<<<<< HEAD
-footer {
-  background-color: #111;
-  color: #ccc;
-  padding: 40px 20px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-
-.footer-data {
-  flex: 1 1 220px;
-  font-size: 14px;
-}
-
-.footer a {
-  color: #FFD700;
-  text-decoration: none;
-  display: inline-block;
-  margin-top: 8px;
-}
-
-.footer a:hover {
-  text-decoration: underline;
-}
-
-.footer h6 {
-  text-align: center;
-  color: white;
-  font-size: 14px;
-  margin-top: 30px;
-}
-
-.btn-primary {
-  background-color: #FFD700;
-  border: none;
-  color: black;
-  font-weight: bold;
-}
-
-.btn-primary:hover {
-  background-color: #e6c200;
-}
-
-textarea, input {
-  background-color: #1e1e1e;
-  color: white;
-  border: 1px solid #FFD700;
-}
-=======
 .row img {
     margin-left: -100px;
     width: 100%;
@@ -333,4 +194,3 @@ textarea, input {
         margin-left: 0;
     }
 }
->>>>>>> 24808ae (Initial commit)
