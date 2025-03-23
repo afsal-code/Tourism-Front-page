@@ -1,4 +1,5 @@
 body {
+<<<<<<< HEAD
   background-color: black;
   margin: 0;
   padding: 0;
@@ -85,11 +86,101 @@ body {
   font-size: 0.95rem;
 }
 
+=======
+    background-color: black;
+}
+
+.custom-navbar {
+    background-color: rgba(0, 0, 0, 0.7); 
+    padding: 15px 30px;
+    backdrop-filter: blur(5px);
+    border-bottom: 2px solid #FFFAEC;
+  }
+  
+  .navbar-brand {
+    font-family: 'Georgia', serif;
+    font-size: 22px;
+    color: #FFFAEC;
+    font-weight: bold;
+  }
+  
+  .navbar-brand img {
+    border-radius: 50%;
+    margin-right: 8px;
+  }
+  
+  .nav-link {
+    color: #FFFAEC !important;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: #FFD700 !important;  
+  }
+  
+  .btn-outline-light {
+    border-color: #FFFAEC;
+    color: #FFFAEC;
+  }
+  
+  .btn-outline-light:hover {
+    background-color: #FFFAEC;
+    color: #000;
+  }
+.carousel img {
+    height: 900px;
+    width: 100%;
+    object-fit: cover;
+    
+}
+
+.heading {
+    color: white;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+.card1 {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.card2 {
+    flex: 1 1 300px;  
+    max-width: 320px;
+    margin-top: 10px;
+    padding-left: 0;
+}
+
+.card {
+    background-color: #FFFAEC;
+    transition: 0.3s;
+    margin: 0 auto;
+}
+
+.card:hover {
+    box-shadow: 3px 3px 15px rgb(221, 214, 214);
+}
+
+.card img {
+    height: 220px;
+    width: 100%;
+    object-fit: cover;
+}
+
+>>>>>>> 24808ae (Initial commit)
 .row {
   margin-top: 80px;
   color: white;
 }
 
+<<<<<<< HEAD
 footer {
   background-color: #111;
   color: #ccc;
@@ -138,3 +229,108 @@ textarea, input {
   color: white;
   border: 1px solid #FFD700;
 }
+=======
+.row img {
+    margin-left: -100px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.footer {
+    width: 100%;
+    background-color: #FFFAEC;
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: #000; 
+    padding: 40px 20px;
+    gap: 20px; 
+}
+
+.cardbody {
+    background-color: #EEEEEE;
+}
+
+.footer-data {
+    flex: 1 1 220px; 
+    max-width: 250px;
+    font-size: 14px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+}
+
+.footer a i {
+    font-size: 18px;
+    margin-right: 8px;
+}
+
+.footer-bottom {
+    text-align: center;
+    font-size: 13px;
+    color: #000;
+    background-color: #FFFAEC; 
+    padding: 20px 10px;
+}
+
+
+@media (max-width: 768px) {
+    .navbar-brand {
+        font-size: 18px;
+      }
+    
+      .nav-link {
+        font-size: 14px;
+      }
+    
+      .btn-outline-light {
+        font-size: 14px;
+        padding: 5px 10px;
+      }
+    .card1 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card2 {
+        max-width: 90%;
+        padding-left: 0;
+    }
+
+    .heading {
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+
+    .heading h1 {
+        font-size: 24px;
+    }
+
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .footer-data {
+        max-width: 100%;
+        text-align: center;
+    }
+    .footer a {
+        display: inline-block;
+        margin: 5px 0;
+    }
+
+    .carousel img {
+        height: 400px;
+    }
+
+    .row img {
+        margin-left: 0;
+    }
+}
+>>>>>>> 24808ae (Initial commit)
